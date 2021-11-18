@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schedule.html</title>
+    <style>
+        body
+        {
+            font-size: 20px;
+        }
+        #new .name
+        {
+            font-family: "맑은 고딕";
+            font-size: 20px;
+            font-weight: bold;
+            color: #5c7511;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        .ym
+        {
+            text-align: center;
+        }
+        table, td
+        {
+            margin: 0px;
+            padding: 0px;
+            border: solid 1px gray;
+            border-collapse:collapse;
+        }
+        .date
+        {
+            text-align: center;
+            background-color: ivory;
+        }
+        .sunday
+        {
+            text-align: center;
+            color: red;
+            background-color: ivory;
+        }
+        .saturday
+        {
+            text-align: center;
+            color: blue;
+            background-color: ivory;
+        }
+        .redday
+        {
+            color: red;
+        }
+        .blueday
+        {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="new">
+        <span class="name">학사일정</span>
+        <div class="clear"></div>
+        <img src="line.jpg">
+        <table>
+            <tr>
+                <td colspan="7" class="ym"><img src="year-month.jpg"></td>
+            </tr>
+            <tr>
+                <td width ="100px" class="sunday">일</td>
+                <td width ="100px" class="date">월</td>
+                <td width ="100px" class="date">화</td>
+                <td width ="100px" class="date">수</td>
+                <td width ="100px" class="date">목</td>
+                <td width ="100px" class="date">금</td>
+                <td width ="100px" class="saturday">토</td>
+            </tr>
+            <tr>
+                <td height="75px" class="redday"></td>
+                <td><br><br><br></td>
+                <td>1<br><br><br></td>
+                <td>2<br><br><br></td>
+                <td>3<br><br><br></td>
+                <td>4<br><br><br></td>
+                <td class="blueday">5<br><br><br></td>
+            </tr>
+            <tr>
+                <td height="80px" class="redday">6<br><br><br></td>
+                <td>7<br><br><br></td>
+                <td>8<br><br><br></td>
+                <td>9<br>특강<br><br></td>
+                <td>10<br><br><br></td>
+                <td>11<br><br><br></td>
+                <td class="blueday">12<br><br><br></td>
+            </tr>
+            <tr>
+                <td height="80px" class="redday">13<br><br><br></td>
+                <td>14<br>기말고사<br><br></td>
+                <td>15<br>기말고사<br><br></td>
+                <td>16<br>기말고사<br><br></td>
+                <td>17<br>기말고사<br><br></td>
+                <td>18<br>기말고사<br><br></td>
+                <td class="blueday">19<br><br><br></td>
+            </tr>
+            <tr>
+                <td height="80px" class="redday">20<br><br><br></td>
+                <td>21<br>하계방학<br><br></td>
+                <td>22<br><br><br></td>
+                <td>23<br><br><br></td>
+                <td>24<br><br><br></td>
+                <td>25<br><br><br></td>
+                <td class="blueday">26<br><br><br></td>
+            </tr>
+            <tr>
+                <td height="80px" class="redday">27<br><br><br></td>
+                <td>28<br><br><br></td>
+                <td>29<br>MT<br><br></td>
+                <td>30<br>MT<br><br></td>
+                <td>31<br><br><br></td>
+                <td><br><br><br></td>
+                <td class="blueday"><br><br><br></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

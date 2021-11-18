@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>member.html</title>
+    <style>
+        body
+        {
+            font-family: "돋움";
+            font-size: 15px;
+            color: #444444;
+        }
+        #new h3
+        {
+            padding-bottom: 5px;
+            border-bottom: solid 2px cornflowerblue;
+        }
+        #new h4
+        {
+            font-family: "함초롱";
+            font-size: 12px;
+            padding-bottom: 5px;
+            border-bottom: solid 1px rgb(219, 219, 219);
+        }
+        .year
+        {
+            width: 70px;
+        }
+        .month
+        {
+            width: 35px;
+        }
+        .day
+        {
+            width: 35px;
+        }
+        .p010
+        {
+            width: 40px;
+        }
+        .p1234
+        {
+            width: 55px;
+        }
+        .sort
+        {
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div id="new">
+        <h3><img src="info.jpg">회원가입정보</h3>
+        <h4><img src="ID.jpg">&nbsp;&nbsp;<input type="text">&nbsp;<img src="check.jpg">&nbsp;영문, 숫자 조합으로 4~12자 이내</h4>
+        <h4><img src="PASSWORD.jpg">&nbsp;&nbsp;<input type="password">&nbsp;영문, 숫자 조합으로 4~12자 이내</h4>
+        <h4><img src="PASSWORDCHECK.jpg">&nbsp;&nbsp;<input type="password"></h4>
+        <h4><img src="NAME.jpg">&nbsp;&nbsp;<input type="text"></h4>
+        <h4><img src="BIRTH.jpg">&nbsp;&nbsp;<input class="year" type="text" >&nbsp;년&nbsp;<input class="month" type="text">&nbsp;월&nbsp;<input class="day" type="text">&nbsp;일&nbsp;<input type="radio" checked>음력&nbsp;<input type="radio">양력</h4>
+        <h4><img src="EMAIL.jpg">&nbsp;&nbsp;<input type="text"></h4>
+        <h4><img src="PHONE.jpg">&nbsp;&nbsp;<input class="p010" type="text">&nbsp;-&nbsp;<input class="p1234" type="text">&nbsp;-&nbsp;<input class="p1234" type="text"></h4>
+        <h4><img src="JOB.jpg">&nbsp;&nbsp;<select><option>직업선택</option></select></h4>
+        <h4><img src="PURPOSE.jpg">&nbsp;&nbsp;<input type="checkbox">시험대비<input type="checkbox">업무상<input type="checkbox">취미<input type="checkbox">기타</h4>
+        <p class="sort"><img src="cancel.jpg"><img src="complete.jpg"></p>
+    </div>
+</body>
+</html>
